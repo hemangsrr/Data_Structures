@@ -18,6 +18,7 @@ typedef struct polynomial {
 } poly;
  
 
+void poly_Create(poly **);
 void poly_Display(poly *);
 void poly_Add(poly **, poly *, poly *);
  
