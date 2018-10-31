@@ -3,6 +3,7 @@
 #include<string.h>
 
 #define limit 64
+#define level 6
  
 int Tree[limit];
 
