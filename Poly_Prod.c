@@ -28,7 +28,7 @@ struct node * buildNode(int coeff, int exp)
 }
  
  
- polynomial_insert(struct node ** myNode, int coeff, int exp) 
+void polynomial_insert(struct node ** myNode, int coeff, int exp) 
 {
 	struct node *lPtr, *pPtr, *qPtr = *myNode;
 	lPtr = buildNode(coeff, exp);
